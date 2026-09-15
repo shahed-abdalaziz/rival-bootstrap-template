@@ -141,3 +141,26 @@ body {
   margin-left: 200px;
 }
 /* end services */
+/* start portfolio */
+.portfolio {
+  padding-top: 100px;
+  background-color: #0b1724;
+  height: auto;
+}
+.btn-all {
+  background: #a8ef00;
+  color: #e5e6ea;
+}
+.btn-next {
+  border: 1px solid #ffffff;
+}
+.s1 {
+  color: gold;
+}
+.view-project {
+  display: inline-block;
+}
+.hr1-portfolio {
+  width: 550px;
+}
+/* end portfolio */

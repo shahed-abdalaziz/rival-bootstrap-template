@@ -57,3 +57,59 @@ body {
   color: greenyellow;
 }
 /* end home */
+/* start about */
+.about {
+  background-color: #0e1022;
+  height: auto;
+  padding-top: 40px;
+}
+.title-divider {
+  margin-top: 20px;
+  width: 200px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+.title-divider .active-line {
+  width: 50px;
+  height: 4px;
+  background-color: greenyellow;
+  position: absolute;
+  left: 50%;
+  top: -1px;
+  transform: translateX(-50%);
+}
+.badge {
+  background-color: rgba(204, 255, 0, 0.1);
+  color: #ccff00;
+  border: 1px solid rgba(102, 255, 0, 0.2);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.about-icon {
+  color: greenyellow;
+}
+.img-2 {
+  margin-top: 220px !important;
+  height: 300px;
+}
+.btn-2 {
+  background-color: greenyellow;
+  border: 1px solid greenyellow;
+  border-radius: 10px;
+  transition: 0.3s all ease;
+}
+.btn-2:hover {
+  transform: translateY(-7px);
+  box-shadow: 0px 0px 10px greenyellow;
+}
+.box {
+  height: 170px;
+  background-color: rgba(204, 255, 0, 0.1);
+  margin-top: 100px;
+}
+.number {
+  color: rgba(172, 255, 47, 0.751);
+}
+/* end about */

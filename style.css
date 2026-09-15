@@ -403,3 +403,58 @@ body {
 }
 
 /* end contact */
+/* start footer */
+.h5-footer {
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.h5-footer::after {
+    content: '';
+    width: 30px;
+    height: 2px;
+    background-color: #a3e635;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.final-row a {
+    transition: color 0.2s ease;
+}
+
+.final-row a:hover {
+    color: #a3e635 !important;
+}
+
+.site-footer {
+    background-color: #000000 !important;
+    position: relative !important;
+    top: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    height: auto !important;
+    clear: both !important;
+    display: block !important;
+}
+
+.footer-square-btn {
+    width: 36px;
+    height: 36px;
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #a3e635;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer-square-btn:hover {
+    background-color: #a3e635;
+    color: #000;
+}
+
+/* end footer */

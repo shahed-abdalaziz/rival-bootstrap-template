@@ -346,3 +346,60 @@ body {
 }
 
 /* end taem */
+/* Contact Section Container */
+.contact {
+    background-color: #0b1320;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+/* Contact  */
+.card-contact {
+    background-color: #121d2f;
+}
+
+.custom-input {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 12px 16px;
+}
+
+.custom-input:focus {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-color: #a3e635;
+    color: #fff;
+    box-shadow: none;
+}
+
+.btn-contact {
+    background-color: #a3e635;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-contact:hover {
+    background-color: #8ce015;
+    transform: translateY(-3px);
+}
+
+.social-round-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-round-btn:hover {
+    border-color: #a3e635;
+    color: #a3e635;
+}
+
+/* end contact */

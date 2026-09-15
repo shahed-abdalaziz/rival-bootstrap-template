@@ -31,3 +31,29 @@ body {
   background-color: transparent;
 }
 /* end navbar */
+/* start home */
+.home {
+  padding-top: 100px;
+  background-color: #0b1724;
+  height: auto;
+}
+.btn-home {
+  background-color: #8be014;
+  color: #121d2f;
+  border: 1px solid #8be014;
+  border-radius: 8px;
+}
+.img-1 {
+  transition: transform 0.3s ease-in;
+  mix-blend-mode: lighten;
+}
+.img-1:hover {
+  transform: scale(1.1);
+}
+.a1:hover {
+  color: greenyellow !important;
+}
+.h1 {
+  color: greenyellow;
+}
+/* end home */

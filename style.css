@@ -1,3 +1,33 @@
 body {
     background-color: #0b1724;
 }
+/* navbar start */
+.nav-link {
+  color: #e5e6ea !important;
+}
+.nav-link:hover {
+  color: greenyellow !important;
+}
+.off-canvas {
+  background-color: #121d2f;
+}
+.navbar-top {
+  background-color: #121d2f !important;
+}
+.offcanvas .nav-link {
+  color: #ffffff;
+}
+.offcanvas .nav-link:hover {
+  color: greenyellow;
+}
+.dropdown-menu {
+  background-color: #121d2f;
+}
+.dropdown-item {
+  color: white
+}
+.dropdown-item:hover {
+  color: #a8ef00;
+  background-color: transparent;
+}
+/* end navbar */
